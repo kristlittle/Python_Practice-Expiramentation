@@ -30,10 +30,11 @@ def arr_practice():
     #array INSERT - insert element at specific index
     array.insert(0, 1)
     array.insert(4, 5)
+
     print("INSERT: ", array)
 
 
-print(arr_practice())
+#print(arr_practice())
 
 def main():
     arr_practice
