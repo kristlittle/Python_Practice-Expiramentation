@@ -2,6 +2,7 @@
 
 def arr_practice():
     array = [1,2,3,4,5]
+    print(array)
     #array manipulation
     
     #array POP - removes last item
@@ -31,13 +32,35 @@ def arr_practice():
     array.insert(0, 1)
     array.insert(4, 5)
 
+    #adding new insert number
+    array.insert(7,7)
+    array.insert(7,8)       
+
     print("INSERT: ", array)
 
+#PRACTICING ARRAY MANIPULATION
+def veges_array():
+    veges_array =["lettuce", "tomato" , "apple", "cucumber",]
+    print(veges_array)
+    
+    veges_array.pop()
+    print("POP: ", veges_array)
+    
+    veges_array.remove("apple")
+    print("REMOVE: ", veges_array)
+    
+    veges_array.insert(2, "carrots")
+    print("INSERT: ",veges_array)
 
-#print(arr_practice())
+    #veges_array.extend()
+
+
+print(veges_array())
+print(arr_practice())
 
 def main():
     arr_practice
+    veges_array
 
 if __name__ == "__main__":
     main()
