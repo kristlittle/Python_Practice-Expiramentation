@@ -1,4 +1,4 @@
-from mergeSort import merge_Sort
+from merge_Sort import MergeSort
 
 
 def isSorted(numbers):
@@ -32,7 +32,7 @@ def main():
 
     numbers = original[:]
 
-    mergeSort = merge_Sort(numbers)
+    mergeSort = MergeSort(numbers)
 
     output = mergeSort.sort()
 
