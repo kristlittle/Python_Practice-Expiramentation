@@ -28,7 +28,8 @@ def contain_match_ints(arr1, arr2):
 
 def main():
     #original array
-    original = [123, 41, 324143, -12345, -98, 123, 5234, 789,-134, 42363]
+    original = [123, 6, 4, 41, 324143, -12345, -98, 123, 5234, 789,-134, 42363,
+    342, 2414, 4121, 12, 13451, 123, 41, 4, 6]
 
     numbers = original[:]
 
